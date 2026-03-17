@@ -15,8 +15,11 @@ contact: #联系方式连接等3~5行
 - text: "18319698849"
   href: 'tel:18319698849'
   icon: 'icons/phone.svg'
-- text: "parseelemonade.github.io"
-  href: 'parseelemonade.github.io'
+- text: "chenan-lightfox.github.io"
+  href: 'https://chenan-lightfox.github.io/'
+  icon: 'icons/web.svg'
+  - text: "parseelemonade.cc"
+  href: 'https://parseelemonade.cc/'
   icon: 'icons/web.svg'
 - text: "GitHubID"
   href: 'https://github.com/Chenan-LightFox'
@@ -27,65 +30,31 @@ contact: #联系方式连接等3~5行
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
-- type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+- type: education
+  name: 教育
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 华南理工大学
+    duration: 在读
+    sub: 本科
+    detail: 软件工程
 
 - type: skills
-  # name: "技能"
+  name: "能力"
   content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
-
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - title: 熟练掌握C++ / Java编程，熟悉Python
+  - title: 对AI Agent有较为深入的了解
+  - title: 曾参与多个项目，有丰富的Git使用经验
 
 - type: projects
-  name: Projects
+  name: 项目经验
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: CMD_online_chatroom
+    - duration: 2025/06/15 - 2025/06/18
+    - sub: 基于Windows命令行的在线聊天室系统
+    - description: 22222
 
 #others 其他简略内容(列表)
-others: #其他列表显示
+# others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
