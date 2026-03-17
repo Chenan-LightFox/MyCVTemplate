@@ -36,7 +36,7 @@ main: #简历主要内容，
   - title: 华南理工大学
     duration: 在读（预计2028年毕业）
     sub: 本科
-    detail: 软件工程
+    detail: 软件工程 2班
 
 - type: skills
   name: 专业能力
