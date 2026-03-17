@@ -21,7 +21,7 @@ contact: #联系方式连接等3~5行
 - text: "parseelemonade.cc"
   href: 'https://parseelemonade.cc/'
   icon: 'icons/web.svg'
-- text: "GitHubID"
+- text: "Chenan_LightFox"
   href: 'https://github.com/Chenan-LightFox'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -31,53 +31,48 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education
-  name: 教育
+  name: 教育经历
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 华南理工大学
-    duration: 在读
+    duration: 在读（预计2028年毕业）
     sub: 本科
     detail: 软件工程
 
 - type: skills
-  name: "能力"
+  name: 专业能力
   content:
-  - title: 熟练掌握C++ / Java编程，熟悉Python
-  - title: 对AI Agent有较为深入的了解
-  - title: 曾参与多个项目，有丰富的Git使用经验
+  - title: 对Windows、Linux等操作系统都有深入了解；
+  - title: 拥有自建的网站，也有web app前后端开发经验；
+  - title: 对AI Agent有较为深入的了解，能够熟练运用AI工具；
+  - title: 曾参与多个项目，有丰富的Git使用经验和较强的版本管理意识；
+  - title: 曾自己编写过Minecraft模组，熟练掌握C++ / Java编程，熟悉Python及Rust；
+  - title: 在APMCM、MCM等数学建模竞中担任论文手，能熟练使用LaTeX进行论文写作，具有良好的英语读写功底。
 
 - type: projects
   name: 项目经验
   content:
-  - title: "CMD_online_chatroom"
-    duration: "2025/06/15 - 2025/06/18"
-    sub: "基于Windows命令行的在线聊天室系统"
-  - title: "YUYUKO_food_map"
-    duration: "2026/02/19 - 至今"
+  - title: 多用户在线聊天系统
+    duration: CMD_online_chatroom | 2025/06/15 - 2025/06/18
+    sub: 项目架构、代码编写
+    detail: 基于Windows命令行的在线聊天室系统，运用Winsock API，独立开发用户匹配引擎，根据分词的各项特征的余弦相似度，实现了C++框架下的基于共同话题及兴趣的多用户高并发聊天功能，还支持多房间管理、消息广播、页面双缓冲渲染、聊天记录持久化等功能。
+  - title: Web在线美食标记地图
+    duration: YUYUKO_food_map | 2026/02/19 - 至今
+    sub: 项目架构与管理、部分代码编写
+    detail: 基于Node.js和Amap API开发的网页端美食地图，自主开发用户管理系统、地点管理与渲染引擎等，搭建了多用户管理维护的web在线美食交流平台。
+  - title: DragonOS开源社区
+    duration: DragonOS | 2025/01 - 2025/02
+    sub: 初步学习
+    detail: 在DragonOS冬令营中参与了线上科研，通过labs任务初步掌握了多平台编程和Rust语法，具备了开源思维。
 
-#others 其他简略内容(列表)
-# others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
-#- type: 
-#  name: '其他'
-#  content: #选择需要的格式
-#  - 单行文字
-#  - 如果有可以继续添加
+- type: competence
+  name: 综合素质
+  content:
+  - title: 团队协作
+    detail: 曾参加过DragonOS冬令营，具备有良好的沟通能力与团队服务意识，乐于在开源社区和技术团队中贡献力量。
+  - title: 高执行力和架构能力
+    detail: 能够快速将项目构想落地，并给出较为具体的MVP（最小可执行）方案、项目细节方案等，具备良好的全局视野。
 
-#footer 脚注，打印版和web版不同不显示    
+#footer 脚注，打印版和web版不同不显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
