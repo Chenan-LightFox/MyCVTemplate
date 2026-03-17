@@ -48,10 +48,10 @@ main: #简历主要内容，
 - type: projects
   name: 项目经验
   content:
-  - title: CMD_online_chatroom
+  - title: "CMD_online_chatroom"
     - duration: "2025/06/15 - 2025/06/18"
-    - sub: 基于Windows命令行的在线聊天室系统
-  - title: YUYUKO_food_map
+    - sub: "基于Windows命令行的在线聊天室系统"
+  - title: "YUYUKO_food_map"
     - duration: "2026/02/19 - 至今"
 
 #others 其他简略内容(列表)
