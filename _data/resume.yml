@@ -15,12 +15,6 @@ contact: #联系方式连接等3~5行
 - text: "18319698849"
   href: 'tel:18319698849'
   icon: 'icons/phone.svg'
-- text: "chenan-lightfox.github.io"
-  href: 'https://chenan-lightfox.github.io/'
-  icon: 'icons/web.svg'
-- text: "parseelemonade.cc"
-  href: 'https://parseelemonade.cc/'
-  icon: 'icons/web.svg'
 - text: "Chenan_LightFox"
   href: 'https://github.com/Chenan-LightFox'
   icon: "icons/github.svg"
