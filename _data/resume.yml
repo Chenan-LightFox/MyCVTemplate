@@ -18,7 +18,7 @@ contact: #联系方式连接等3~5行
 - text: "chenan-lightfox.github.io"
   href: 'https://chenan-lightfox.github.io/'
   icon: 'icons/web.svg'
-  - text: "parseelemonade.cc"
+- text: "parseelemonade.cc"
   href: 'https://parseelemonade.cc/'
   icon: 'icons/web.svg'
 - text: "GitHubID"
