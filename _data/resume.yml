@@ -35,11 +35,10 @@ main: #简历主要内容，
 - type: skills
   name: 专业能力
   content:
-  - title: 对Windows、Linux等操作系统都有深入了解；
   - title: 拥有自建的网站，也有web app前后端开发经验；
+  - title: 熟练掌握C++ / Java编程，熟悉Python及Rust；
   - title: 对AI Agent有较为深入的了解，能够熟练运用AI工具；
   - title: 曾参与多个项目，有丰富的Git使用经验和较强的版本管理意识；
-  - title: 曾自己编写过Minecraft模组，熟练掌握C++ / Java编程，熟悉Python及Rust；
   - title: 在APMCM、MCM等数学建模竞中担任论文手，能熟练使用LaTeX进行论文写作，具有良好的英语读写功底。
 
 - type: projects
