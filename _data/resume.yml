@@ -52,6 +52,10 @@ main: #简历主要内容，
     duration: YUYUKO_food_map | 2026/02/19 - 至今
     sub: 项目架构与管理、部分代码编写
     detail: 基于Node.js和Amap API开发的网页端美食地图，自主开发用户管理系统、地点管理与渲染引擎等，搭建了多用户管理维护的web在线美食交流平台。
+  - title: 基于 Minecraft 环境的多智能体协作与进化架构研究
+    duration: steveX | 2026/03 - 至今
+    sub: Agent api开发与维护
+    detail: 本项目的核心目标是探索并构建一套全新的、以“版本控制”与“群体进化”为核心的多智能体系统架构，旨在突破当前 AI Agent 技术的局限性。
   - title: DragonOS开源社区
     duration: DragonOS | 2025/01 - 2025/02
     sub: 初步学习
